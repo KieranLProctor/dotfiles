@@ -113,5 +113,5 @@ compinit
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 PATH="/usr/local/bin:$PATH"
-export PATH=/opt/homebrew/bin:/usr/local/bin:node_modules/.bin:vendor/bin:/Users/kieranproctor/.node/bin:/Users/kieranproctor/.composer/vendor/bin:/Users/kieranproctor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+export PATH=/opt/homebrew/bin:/usr/local/bin:node_modules/.bin:vendor/bin:/Users/kieranproctor/.node/bin:/Users/kieranproctor/.composer/vendor/bin:/Users/kieranproctor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/kieranproctor/bin
 export PATH="/opt/homebrew/sbin:$PATH"
