@@ -44,13 +44,10 @@ cask 'google-chrome'
 cask 'gpg-suite'
 cask 'imageoptim'
 cask 'insomnia'
-cask 'pastebot'
 cask 'phpstorm'
 cask 'tableplus'
 cask 'the-unarchiver'
 cask 'visual-studio-code'
-cask 'whatsapp'
-cask 'zoom'
 cask 'vlc'
 
 # Quicklook
