@@ -51,6 +51,7 @@ cask 'the-unarchiver'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'iina'
+cask 'mullvadvpn'
 
 # Quicklook
 cask 'qlmarkdown'
