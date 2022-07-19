@@ -31,6 +31,7 @@ brew 'nginx'
 brew 'node'
 brew 'redis'
 brew 'yarn'
+brew 'starship'
 
 # Apps
 cask 'lastpass'
@@ -49,6 +50,7 @@ cask 'tableplus'
 cask 'the-unarchiver'
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'iina'
 
 # Quicklook
 cask 'qlmarkdown'
