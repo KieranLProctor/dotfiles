@@ -56,6 +56,7 @@ cask 'clion'
 cask 'datagrip'
 cask 'rider'
 cask 'intellij-idea'
+cask 'streamlabs-obs'
 
 # Quicklook
 cask 'qlmarkdown'
