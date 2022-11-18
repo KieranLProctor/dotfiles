@@ -18,6 +18,7 @@ brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn' # Needed to install fonts
+brew 'gcc'
 
 # Development
 brew 'php'
@@ -58,6 +59,7 @@ cask 'datagrip'
 cask 'rider'
 cask 'intellij-idea'
 cask 'streamlabs-obs'
+cask 'pycharm'
 
 # Quicklook
 cask 'qlmarkdown'
