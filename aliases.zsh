@@ -27,11 +27,6 @@ alias cgup="composer global update"
 alias php8="docker run -it -w /data -v ${PWD}:/data:delegated --entrypoint php --rm registry.gitlab.com/grahamcampbell/php:8.0"
 alias composer="php -d memory_limit=-1 /usr/local/bin/composer"
 
-# JS
-alias nfreshold="rm -rf node_modules/ package-lock.json && npm install"
-alias nfresh="rm -rf node_modules/ yarn.lock && yarn install"
-alias watch="npm run watch"
-
 # Git
 alias gst="git status"
 alias gb="git branch"

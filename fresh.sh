@@ -41,9 +41,6 @@ $HOME/.composer/vendor/bin/valet install
 # Create a Sites directory
 mkdir $HOME/Sites
 
-# Clone Github repositories
-$DOTFILES/clone.sh
-
 # Symlink the Mackup config file to the home directory
 ln -s $DOTFILES/.mackup.cfg $HOME/.mackup.cfg
 
