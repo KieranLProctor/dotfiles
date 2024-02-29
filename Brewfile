@@ -20,6 +20,13 @@ brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn' # Needed to install fonts
 brew 'gcc'
 
+# Spatie Medialibrary
+brew 'jpegoptim'
+brew 'optipng'
+brew 'pngquant'
+brew 'svgo'
+brew 'gifsicle'
+
 # Development
 brew 'php'
 brew 'composer'
@@ -37,7 +44,6 @@ brew 'starship'
 cask 'lastpass'
 cask 'lastpass-cli'
 cask 'alfred'
-cask 'dbngin'
 cask 'discord'
 cask 'docker'
 cask 'github'
