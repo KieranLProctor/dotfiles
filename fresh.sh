@@ -27,7 +27,7 @@ brew tap homebrew/bundle
 brew bundle --file $DOTFILES/Brewfile
 
 # Set default MySQL root password and auth type
-mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
+mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH caching_sha2_password BY 'password'; FLUSH PRIVILEGES;"
 
 # Install PHP extensions with PECL
 pecl install imagick redis swoole
@@ -40,6 +40,9 @@ $HOME/.composer/vendor/bin/valet install
 
 # Create a Sites directory
 mkdir $HOME/Sites
+
+# Create a dev directory
+mkdir $HOME/dev
 
 # Symlink the Mackup config file to the home directory
 ln -s $DOTFILES/.mackup.cfg $HOME/.mackup.cfg

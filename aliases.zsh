@@ -23,8 +23,6 @@ alias cfresh="rm -rf vendor/ composer.lock && composer i"
 alias cgfresh="cd $HOME/.composer && rm -rf vendor/ composer.lock && composer i"
 alias creq="composer require"
 alias cup="composer update"
-alias cgup="composer global update"
-alias php8="docker run -it -w /data -v ${PWD}:/data:delegated --entrypoint php --rm registry.gitlab.com/grahamcampbell/php:8.0"
 alias composer="php -d memory_limit=-1 /usr/local/bin/composer"
 
 # Git

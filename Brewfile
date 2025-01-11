@@ -38,7 +38,6 @@ brew 'node'
 brew 'redis'
 brew 'yarn'
 brew 'pnpm'
-brew 'starship'
 
 # Apps
 cask 'lastpass'
@@ -52,7 +51,6 @@ cask 'gpg-suite'
 cask 'imageoptim'
 cask 'insomnia'
 cask 'tableplus'
-cask 'the-unarchiver'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'mullvadvpn'
@@ -62,7 +60,6 @@ cask 'datagrip'
 cask 'rider'
 cask 'intellij-idea'
 cask 'streamlabs-obs'
-cask 'pycharm'
 
 # Quicklook
 cask 'qlmarkdown'
