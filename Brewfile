@@ -19,6 +19,7 @@ brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn' # Needed to install fonts
 brew 'gcc'
+brew 'ripgrep'
 
 # Spatie Medialibrary
 brew 'jpegoptim'
@@ -35,18 +36,14 @@ brew 'meilisearch'
 brew 'mysql'
 brew 'nginx'
 brew 'node'
-brew 'redis'
 brew 'yarn'
-brew 'pnpm'
 
 # Apps
 cask 'lastpass'
 cask 'lastpass-cli'
-cask 'alfred'
 cask 'discord'
 cask 'docker'
 cask 'github'
-cask 'google-chrome'
 cask 'gpg-suite'
 cask 'imageoptim'
 cask 'insomnia'
@@ -74,3 +71,4 @@ cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 cask 'font-jetbrains-mono'
+cask 'font-jetbrains-mono-nerd-font'
